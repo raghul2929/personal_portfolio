@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.projectsep>.projectnav{
+    width: 100%;
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: black;
+}
+.projectsep nav {
+    width: 95%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+
+}
+.projectsep .nav1{
+width:30%;
+height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.projectsep .nav2{
+    width: 70%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar3{
+    width: 100%;
+    height: 100%;
+     
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .projectroutes{
+    padding-top: 80px;
+} */
+.deployed{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border-top: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f5f5f5; */
+    padding: 10px;
+} 
+.deployed section{
+    width:95%;
+    height: 100%;
+    /* background-color: aliceblue; */
+}
+.deployed .project1,.project2{
+    width: 100%;
+    height: 60vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+
+}
+.project1 .content{
+    width: 80%;
+    height: 100%;
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .container1{
+    width: 70%;
+    height: 80%;
+    
+   background-color: rgba(128, 128, 128, 0.275);
+    /* background-color: blue; */
+    padding: 20px;
+    border-radius: 10px;
+}
+ .content .container2{
+    width: 27%;
+    height: 80%;
+   background-color: rgba(128, 128, 128, 0.275);
+
+
+
+ }
+.project1 h1{
+    color: violet;
+}
+.project2 h1{
+    color: violet;
+}
+.container1 li{
+    color: white;
+    font-size: larger;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.container1 .projectbutton{
+    width: 80%;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.projectbutton button{
+    color: rgb(221, 11, 11);
+    font-size: larger;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor:pointer;
+    margin-top: 20px;
+}
+.projectbutton button:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    color: white;
+    background-color: red;
+}
+.project2 .content{
+    width: 80%;
+    height: 100%;
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project2 .container1{
+    width: 27%;
+    height: 80%;
+   background-color: rgba(128, 128, 128, 0.275);
+    
+}
+ .project2 .container2{
+    
+   width: 70%;
+   height: 80%;
+   
+  background-color: rgba(128, 128, 128, 0.275);
+   /* background-color: blue; */
+   padding: 20px;
+   border-radius: 10px;
+
+
+ }
+ .project2 li{
+    color: white;
+    font-size: larger;
+    line-height: 35px;
+    margin-left: 20px;
+
+ }
+ /* Mobile devices: Small screens (max-width: 768px) */
+/* Base Styles (Existing) */
+/* No changes to the base styles here, just referencing them for context */
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    /* General adjustments for medium screens */
+    .deployed .project1,
+    .deployed .project2 {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .project1 .content,
+    .project2 .content {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .project1 .container1,
+    .project2 .container1 {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .project1 .container2,
+    .project2 .container2 {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Small screen adjustments */
+    .deployed .project1,
+    .deployed .project2 {
+        padding: 10px;
+    }
+
+    .project1 .content,
+    .project2 .content {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .project1 .container1,
+    .project2 .container1 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .project1 .container2,
+    .project2 .container2 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .projectbutton {
+       width: 100%;
+        gap: 30px;
+        align-items: center;
+        display: flex;
+        padding-left: 40px;
+        
+    }
+
+    .projectbutton button {
+        width: 50%;
+        font-size: medium;
+        padding: 8px;
+        /* padding-left: 40px; */
+    }
+    .projectsep nav {
+        width: 99%;
+        height: 80px;
+       
+    
+    }
+    .navbar3{
+        width: 100%;
+        height: 100%;
+         
+        display: flex;
+        justify-content:center;
+        gap: 10px ;
+        align-items: center;
+    }
+}
+/* __________________ deployed  completed___________________________  */
+.cloned{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.cloned main{
+    width: 95%;
+    height: 100%;
+    border-top: 1px solid grey;
+    background-color: rgb(6, 6, 6);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+.clonedproject1{
+    width: 99%;
+    height: 60vh;
+    background-color: rgb(187, 173, 173);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.clonedproject1 .clonedcon1{
+    width: 20%;
+    height: 90%;
+    background-color: rgb(12, 12, 12);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.clonedcon1 .div1{
+    width: 100%;
+    height: 50%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; */
+    /* background-color: aqua; */
+}
+.clonedcon1 .div2{
+    width: 100%;
+    height: 50%;
+    /* background-color: azure; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; */
+}
+.clonedcon1 .div2>.para{
+    width: 100%;
+    height: 70%;
+    /* background-color: blue; */
+
+}
+.clonedcon1 .div2>.button{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.clonedcon1 .div1{
+    padding: 30px;
+}
+.clonedcon1 img{
+    width: 100%;
+    height: 100%;
+}
+.clonedcon1 .para{
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.clonedcon1 .button button{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 30px;
+
+}
