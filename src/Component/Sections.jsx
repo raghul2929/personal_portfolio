@@ -46,7 +46,7 @@ function Sections() {
               <span className='developer'>Mern Stack Developer..</span>
             </div>
             <div className="cv">
-              <a href={resume} download={"myresume.pdf"}><button><span>Download CV</span></button></a>
+              <a href={resume} download={"myresume.pdf"}><button><span>DownloadCV</span></button></a>
               <a href="#contact"><button>contact</button></a>
 
             </div>

@@ -164,8 +164,9 @@
         width: 90px;
         height: 30px;
     }
-    .home1 button>span{
-        font-size:small;
+    .home1 button span{
+        
+        font-size:10px;
        
     }
     .home2 img {
